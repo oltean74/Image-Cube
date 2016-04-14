@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="btImageCube">
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+		</field>
+		<field name="fsID" 		type="I"></field>
+		<field name="fsTitle" 		type="C" size="15"></field>
+		<field name="effect" 		type="C" size="15"></field>
+		<field name="cubewidth" 		type="I"></field>
+		<field name="animSpeed" 	type="I"></field>
+		<field name="pauseTime" 	type="I"></field>
+		<field name="segments" 	type="I"></field>		
+		<field name="cubeheight" 		type="I"></field>		
+		<field name="reduction"	 	type="I"></field>		
+		<field name="expansion"	 	type="I"></field>	
+		<field name="selection"	 	type="C" size="15"></field>	
+		<field name="options"		type="X"></field>
+
+	</table>
+</schema>
